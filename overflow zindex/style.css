@@ -1,0 +1,76 @@
+.visible{	
+  height: 65px;
+  border:1px solid black;
+  overflow: visible;
+  margin:10px 0;
+  }
+  
+  .hidden{	
+	/* padding:2rem 0; */
+  height: 65px;
+  background-color: yellow;
+  overflow: hidden;
+  margin:10px 0;
+  }
+  
+  
+  .scroll{	
+  border: 3px solid pink;
+  height:90px;
+  font-size:1rem;
+  overflow:scroll;
+  }
+  
+  .auto{	
+	height: 65px;
+  background-color:gray;
+  overflow: auto;
+  margin:20px 0;
+  
+  }
+  
+.zz{
+	position:fixed;
+	width:100%;
+	height:100px;
+	background-color:blue;
+	top:0;
+	right:0;
+	left:0;
+	z-index:-1;
+}
+ 
+ 
+ .index{
+	 border:1px solid black;
+     position:relative;
+ }
+ .div1{
+	 position:absolute;
+	 background-color:lightblue;
+	 width:200px;
+	 height:150px;
+	 top:10px;
+	 z-index:5;
+	 
+ }
+ 
+ .div2{
+	 position:absolute;
+	 background-color:red;
+	 width:200px;
+	 height:150px;
+	 top:50px;
+	 left:100px;
+	 z-index:4; 
+ }
+ 
+ .div3{
+	  position:absolute;
+	 background-color:lightgreen;
+	 width:200px;
+	 height:150px;
+	 top:100px;
+	 left:150px;
+	 z-index:5;
+ }
